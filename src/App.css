@@ -1,0 +1,36 @@
+.contenedor {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+  line-height: 1.6;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+.tecnologias {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tecnologias li {
+  padding: 0.3rem 0.8rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+}
+
+.proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.tarjeta {
+  padding: 1rem;
+  border: 1px solid #8884;
+  border-radius: 8px;
+}
